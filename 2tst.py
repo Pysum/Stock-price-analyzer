@@ -7,7 +7,7 @@ symbol = "AAPL"
 timeframe = "D"
 
 # Fetch the data from the API
-url = f"https://finnhub.io/api/v1/stock/candle?symbol={symbol}&resolution={timeframe}&token=ch25vj9r01qroac5tj9gch25vj9r01qroac5tja0"
+url = f"https://finnhub.io/api/v1/stock/candle?symbol={symbol}&resolution={timeframe}&token=YOUR_API_KEY"
 response = requests.get(url)
 data = response.json()
 
